@@ -1,5 +1,8 @@
 PODS:
   - Alamofire (4.8.1)
+  - HockeySDK (5.1.4):
+    - HockeySDK/DefaultLib (= 5.1.4)
+  - HockeySDK/DefaultLib (5.1.4)
   - KeychainSwift (13.0.0)
   - NVActivityIndicatorView (4.6.1):
     - NVActivityIndicatorView/Presenter (= 4.6.1)
@@ -9,6 +12,7 @@ PODS:
 
 DEPENDENCIES:
   - Alamofire
+  - HockeySDK (~> 5.1.4)
   - KeychainSwift
   - NVActivityIndicatorView
   - PullToRefreshKit
@@ -17,6 +21,7 @@ DEPENDENCIES:
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - Alamofire
+    - HockeySDK
     - KeychainSwift
     - NVActivityIndicatorView
     - PullToRefreshKit
@@ -24,11 +29,12 @@ SPEC REPOS:
 
 SPEC CHECKSUMS:
   Alamofire: 16ce2c353fb72865124ddae8a57c5942388f4f11
+  HockeySDK: 15afe6bc0a5bfe3a531fd73dbf082095f37dac3b
   KeychainSwift: 23d6c16cbc33f20fafa30c3d783241b4b87d998c
   NVActivityIndicatorView: 4ca19fccc84595a78957336a086d00a49be6ce61
   PullToRefreshKit: 7cc53e720e69f135cffa1a57784dfb534f0222ab
   RLBAlertsPickers: 2548943b0cb16620904cbd926a645362d1b43963
 
-PODFILE CHECKSUM: c85fdb51b0aa81cfa025ac9652126c0086862985
+PODFILE CHECKSUM: aeef9c8b2cf7b0389fa1255210bf2a3a5f57e487
 
 COCOAPODS: 1.5.3

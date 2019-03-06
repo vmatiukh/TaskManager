@@ -25,16 +25,16 @@
 		<key>NSExceptionDomains</key>
 		<dict>
 			<key>testapi.doitserver.in.ua</key>
-            <dict>
-                <key>NSIncludesSubdomains</key>
-                <true/>
-                <key>NSExceptionAllowsInsecureHTTPLoads</key>
-                <true/>
-                <key>NSExceptionRequiresForwardSecrecy</key>
-                <true/>
-                <key>NSExceptionMinimumTLSVersion</key>
-                <string>TLSv1.2</string>
-            </dict>
+			<dict>
+				<key>NSExceptionAllowsInsecureHTTPLoads</key>
+				<true/>
+				<key>NSExceptionMinimumTLSVersion</key>
+				<string>TLSv1.2</string>
+				<key>NSExceptionRequiresForwardSecrecy</key>
+				<true/>
+				<key>NSIncludesSubdomains</key>
+				<true/>
+			</dict>
 		</dict>
 	</dict>
 	<key>UILaunchStoryboardName</key>

@@ -8,7 +8,7 @@
 
 import UIKit
 import CoreData
-
+import HockeySDK
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
@@ -17,6 +17,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         
+        BITHockeyManager.shared().configure(withIdentifier: "0616ac9787504a279bddb1c2285e8a84")
+        // Do some additional configuration if needed here
+        BITHockeyManager.shared().start()
+        BITHockeyManager.shared().authenticator.authenticateInstallation()
+
         let window = UIWindow(frame: UIScreen.main.bounds)
         let appCoordinator = AppCoodinator(window: window) // 2
         

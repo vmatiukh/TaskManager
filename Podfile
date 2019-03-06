@@ -10,5 +10,5 @@ pod 'KeychainSwift'
 pod 'NVActivityIndicatorView'
 pod 'RLBAlertsPickers'
 pod 'PullToRefreshKit'
-
+pod 'HockeySDK', '~> 5.1.4'
 end
